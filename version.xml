@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/generic/addCtECitationStyle/version.xml
+  -->
+
+<version>
+    <application>addCtECitationStyle</application>
+    <type>plugins.generic</type>
+    <release>1.0.0.0</release>
+    <date>2018-02-15</date>
+    <lazy-load>1</lazy-load>
+    <sitewide>1</sitewide>
+    <class>AddCtECitationStyle</class>
+</version>

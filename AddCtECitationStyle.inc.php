@@ -28,7 +28,7 @@ class AddCtECitationStyle extends GenericPlugin {
 			'id' => 'contributions-to-entomology',
 			'title' => 'Contributions to Entomology',
 			'isEnabled' => true,
-			'useCsl' => '/srv/www/htdocs/journals/beitraege_entomology/plugins/generic/addCtECitationStyle/citationStyle.csl',
+			'useCsl' => Core::getBaseDir() . '/' . $this->getPluginPath() . '/contribEntomol.csl',
 		);
 	}
 

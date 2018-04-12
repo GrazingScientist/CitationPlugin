@@ -25,10 +25,10 @@ class AddCtECitationStyle extends GenericPlugin {
 		$defaults =& $args[0];
 
 		$defaults[] = array(
-			'id' => 'contributions-to-entomology',
-			'title' => 'Contributions to Entomology',
+			'id' => 'custom-citation-style',
+			'title' => 'Custom Citation Style',
 			'isEnabled' => true,
-			'useCsl' => Core::getBaseDir() . '/' . $this->getPluginPath() . '/contribEntomol.csl',
+			'useCsl' => Core::getBaseDir() . '/' . $this->getPluginPath() . '/custom_citation_style.csl',
 		);
 	}
 
@@ -36,14 +36,14 @@ class AddCtECitationStyle extends GenericPlugin {
 	 * @copydoc Plugin::getDisplayName()
 	 */
 	function getDisplayName() {
-		return ('Contributions to Entomology Citation Style');
+		return ('Custom Citation Style');
 	}
 
 	/**
 	 * @copydoc Plugin::getDescription()
 	 */
 	function getDescription() {
-		return ('Add the CtE citation style to the Citation Style Language.');
+		return ('Add the custom citation style to the Citation Style Language.');
 	}
 }
 

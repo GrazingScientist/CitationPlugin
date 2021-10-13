@@ -6,7 +6,7 @@
   -->
 
 <version>
-    <application>addCtECitationStyle</application>
+    <application>CitationPlugin</application>
     <type>plugins.generic</type>
     <release>1.0.0.0</release>
     <date>2018-02-15</date>
